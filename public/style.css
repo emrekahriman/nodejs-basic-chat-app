@@ -1,0 +1,28 @@
+#chat-window {
+    position: relative;
+    height: 400px;
+    overflow-y: auto;
+}
+
+#output p {
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+
+#output p:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+#feedback p {
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    padding: 5px;
+    color: rgba(0, 0, 0, .7);
+}
+
+#output strong{
+    color: #0085ad;
+}
